@@ -41,4 +41,4 @@
      return length;
  }
  FillArray(array);
- Console.WriteLine(string.Join(",",array));
+ Console.WriteLine("[" + string.Join(",",array)+"]");
